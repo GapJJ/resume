@@ -1,7 +1,12 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import Counter from '../../components/Counter';
+
 ---
 <Layout title="is this working?">
 <h1>hi</h1>
-<h1>Welcome to <span class="text-gradient">What</span></h1>
+            <h1>Astro.js - Qwik</h1>
+            /* no hydration directive! */
+            <Counter />
+
 </Layout>
